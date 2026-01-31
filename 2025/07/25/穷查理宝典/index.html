@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Yaochang Liu">
+    
+    <title>
+        
+            穷查理宝典 |
+        
+        Yaochang Liu&#39;s Blog
+    </title>
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    
+        <link rel="shortcut icon" href="/images/logo.svg">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/font/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/font/css/regular.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/font/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/font/css/brands.min.css">
+    
+    <script class="keep-theme-configurations">
+    const KEEP = window.KEEP || {}
+    KEEP.hexo_config = {"hostname":"example.com","root":"/","language":"en","path":"search.json"}
+    KEEP.theme_config = {"base_info":{"primary_color":"#0066cc","title":"Yaochang Liu's Blog","author":"Yaochang Liu","avatar":"/images/avatar.svg","logo":"/images/logo.svg","favicon":"/images/logo.svg"},"menu":{"home":"/","archives":"/archives","categories":"/categories"},"first_screen":{"enable":true,"background_img":"/images/bg.svg","background_img_dark":"/images/bg.svg","description":"Macro ambition, Micro grinding","hitokoto":false},"social_contact":{"enable":true,"links":{"github":"https://github.com/YaochangLiu","weixin":null,"qq":null,"weibo":null,"zhihu":null,"twitter":null,"x":null,"facebook":null,"email":null}},"scroll":{"progress_bar":false,"percent":false,"hide_header":true},"home":{"announcement":null,"category":false,"tag":true,"post_datetime":"updated"},"post":{"author_badge":{"enable":true,"level_badge":true,"custom_badge":["One","Two","Three"]},"word_count":{"wordcount":true,"min2read":true},"datetime_format":"YYYY-MM-DD HH:mm:ss","copyright_info":false,"share":true,"reward":{"enable":false,"img_link":null,"text":null,"icon":null}},"code_block":{"tools":{"enable":false,"style":"default"},"highlight_theme":"default"},"toc":{"enable":true,"number":false,"expand_all":true,"init_open":true,"layout":"right"},"website_count":{"busuanzi_count":{"enable":true,"site_uv":true,"site_pv":true,"page_pv":false}},"local_search":{"enable":true,"preload":true},"comment":{"enable":false,"use":"valine","valine":{"appid":null,"appkey":null,"server_urls":null,"placeholder":null},"gitalk":{"github_id":null,"github_admins":null,"repository":null,"client_id":null,"client_secret":null,"proxy":null},"twikoo":{"env_id":null,"region":null,"version":"1.6.39"},"waline":{"server_url":null,"reaction":false,"version":"3.3.2"},"giscus":{"repo":null,"repo_id":null,"category":"Announcements","category_id":null,"reactions_enabled":false},"artalk":{"server":null},"disqus":{"shortname":null}},"rss":{"enable":false},"lazyload":{"enable":true},"cdn":{"enable":true,"provider":"cdnjs"},"pjax":{"enable":false},"footer":{"since":2020,"word_count":false,"site_deploy":{"enable":false,"provider":"github","url":null},"record":{"enable":false,"list":[{"code":null,"link":null}]}},"inject":{"enable":false,"css":[null],"js":[null]},"root":"","source_data":{},"version":"4.2.5"}
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"}
+    KEEP.language_code_block = {"copy":"Copy code","copied":"Copied","fold":"Fold code block","folded":"Folded"}
+    KEEP.language_copy_copyright = {"copy":"Copy copyright info","copied":"Copied","title":"Original post title","author":"Original post author","link":"Original post link"}
+  </script>
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+
+    
+</div>
+
+
+
+<main class="page-container border-box">
+    <!-- home first screen  -->
+    
+
+    <!-- page content -->
+    <div class="page-main-content border-box">
+        <div class="page-main-content-top">
+            
+<header class="header-wrapper">
+
+    <div class="border-box header-content">
+        <div class="left flex-start border-box">
+            
+                <a class="logo-image border-box" href="/">
+                    <img src="/images/logo.svg">
+                </a>
+            
+            <a class="site-name border-box" href="/">
+               Yaochang Liu&#39;s Blog
+            </a>
+        </div>
+
+        <div class="right border-box">
+            <div class="pc border-box">
+                <ul class="menu-list border-box">
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/">
+                                
+                                HOME
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/archives">
+                                
+                                ARCHIVES
+                                
+                            </a>
+                            
+                        </li>
+                    
+                        
+                        <li class="menu-item flex-start border-box">
+                            <a class="menu-text-color border-box" href="/categories">
+                                
+                                CATEGORIES
+                                
+                            </a>
+                            
+                        </li>
+                    
+                    
+                        <li class="menu-item search search-popup-trigger">
+                            <i class="menu-text-color fas search fa-search"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <div class="mobile border-box flex-start">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fas fa-search"></i></div>
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list border-box">
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/">
+                            
+                            HOME
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/archives">
+                            
+                            ARCHIVES
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+                
+                <li class="drawer-menu-item border-box not-sub-menu">
+                    <label class="drawer-menu-label border-box">
+                        <a class="drawer-menu-text-color left-side flex-start border-box" href="/categories">
+                            
+                            CATEGORIES
+                        </a>
+                        
+                    </label>
+                    
+                </li>
+            
+        </ul>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle border-box">
+
+            <div class="main-content border-box">
+                
+
+                    
+<div class="fade-in-down-animation">
+    <div class="post-page-container border-box">
+        <div class="post-content-container border-box">
+            
+
+            <div class="post-content-bottom border-box">
+                
+                    <div class="post-title">
+                        穷查理宝典
+                    </div>
+                
+
+                
+                    <div class="post-header border-box">
+                        
+                            <div class="avatar-box border-box">
+                                <img src="/images/avatar.svg">
+                            </div>
+                        
+                        <div class="info-box">
+                            <div class="author border-box">
+                                <span class="name">Yaochang Liu</span>
+                                
+                                    <span class="author-badge">Lv4</span>
+                                
+                            </div>
+                            <div class="meta-info border-box">
+                                
+
+<div class="post-meta-info-container border-box post">
+    <div class="post-meta-info border-box">
+        
+
+        
+            <span class="meta-info-item post-create-date">
+                <i class="icon fa-solid fa-calendar-plus"></i>&nbsp;
+                <span class="datetime">2025-07-25 07:49:01</span>
+            </span>
+
+            
+                <span class="meta-info-item post-update-date">
+                    <i class="icon fa-solid fa-file-pen"></i>&nbsp;
+                    <span class="datetime" data-updated="Sun Feb 01 2026 07:08:44 GMT+0800">2026-02-01 07:08:44</span>
+                </span>
+            
+        
+
+        
+            <span class="meta-info-item post-category border-box"><i class="icon fas fa-folder"></i>&nbsp;
+                <ul class="post-category-ul">
+                    
+                            <li class="category-item"><a href="/categories/%E9%98%85%E8%AF%BB/">阅读</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+            <span class="post-tag meta-info-item border-box">
+                <ul class="post-tag-ul">
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a></li>
+                        
+                    
+                            <li class="tag-item"><span class="tag-separator"><i class="icon fas fa-hashtag"></i></span><a href="/tags/%E4%B8%AA%E4%BA%BA%E5%BD%92%E6%A1%A3/">个人归档</a></li>
+                        
+                    
+                </ul>
+            </span>
+        
+
+        
+        
+            <span class="meta-info-item post-wordcount">
+                <i class="icon fas fa-file-word"></i>&nbsp;<span>4.3k Words</span>
+            </span>
+        
+        
+            <span class="meta-info-item post-min2read">
+                <i class="icon fas fa-clock"></i>&nbsp;<span>14 Mins</span>
+            </span>
+        
+        
+    </div>
+
+    
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                <div class="post-content keep-markdown-body ">
+                    
+
+                    
+                         <h1 id="《穷查理宝典》"><a href="#《穷查理宝典》" class="headerlink" title="《穷查理宝典》"></a>《穷查理宝典》</h1><h2 id="Start"><a href="#Start" class="headerlink" title="Start"></a>Start</h2><p><em>每过完一天，要努力比早上醒来时更聪明一点点。</em><br><em>我把一天中最好的时间用于获取智慧、提升自己。</em><br><em>我遇到的聪明人，没有不每天阅读的，一个都没有。</em><br><em>反过来想，总是反过来想。</em><br><em>怨天尤人、牢骚不断，只能越来越苦、越来越难。</em><br><em>文明所能达到的最高形式应该是无缝的信任之网。</em><br><em>身处逆境的时候，要有一股咬紧牙关、埋头苦干的拼劲。</em><br><em>如果你知道你会死在哪里，那你就永远不要去那个地方。</em><br><em>有一贤妻相伴，三两知己同行，一生足矣。</em><br><em>我的剑传给能挥舞它的人</em></p>
+<h2 id="摘抄"><a href="#摘抄" class="headerlink" title="摘抄"></a>摘抄</h2><p>[1]<em>查理在他漫长的一生中，持续不断地研究收集关于各种各样的人物、各行各业的企业以及政府管制、学术研究等各领域中的人类失败之著名案例，并把那些失败的原因排列成正确决策的检查清单，使他在人生、事业的决策上几乎从不犯重大错误。这点对巴菲特及伯克希尔五十年业绩的重要性是再三强调也不为过的。</em></p>
+<p>[2]<em>但即使这样，一个人在一生中可以真正得到的真知灼见仍然非常有限，所以正确的决策必须局限在自己的“能力圈”内。一种不能够界定其边界的能力档然不能称之为真正的能力。怎么才能界定自己的能力圈呢？查理说，如果我要拥有一种观点，如果我不能够比全世界最聪明、最有能力、最有资格反驳这个观点的人更能够证否自己，我就不配拥有这个观点。所以查理真正地持有某个观点时，他的想法既原创、独特又几乎从不犯错。</em></p>
+<p>[3]<em>你们每个人都必须搞清楚你们有哪方面的才能。你们必须发挥自己的优势。但如果你们想在较不擅长的领域取得成功，那你们的生活可能会过得一团糟。这一点我可以保证。如果不是的话，那你们肯定是中了彩票或者遇到其他非常走运的事情。</em></p>
+<p>[4]<em>我可不希望你们误以为我们拥有任何可以使你们不犯很多错误的学习或行事方式。我只是说你们可以通过学习，比其他人少犯一些错误————也就是在犯了错误之后，更快地纠正错误。但既要过上富足的生活又不犯很多错误是不可能的。实际上，生活之所以如此，是为了让你们能够处理错误。那些破产的人的通病是无法正确地处理心理否认。你们对某样东西投入了巨大的精力，对它倾注了心血和金钱。你们投入的越多，一贯性原理就会促使你们想：“现在它必须成功。如果我再投入一点，它就会成功。”</em></p>
+<p>[5]<em>如何对付错误和那些改变赢面的新情况，也是你们必须掌握的知识之一。生活有时候就像扑克游戏，有时候你们即使拿到一把非常喜欢的牌，但也必须学会放弃。这时候，“剥夺性超级反应综合征”也会出现：如果不再投入一点，你们就要前功尽弃啦。人们就是这样破产的————因为他们不懂得停下来反思，然后说：“我可以放弃这个，从头再来。我不会执迷不悟下去————那样的话我会破产的。”</em></p>
+<p>[6]<em>我们可以从心理学的入门课上学到，本质上，我们要做的生意就是创造和维持条件反射。“可口可乐”的商标名称和商标形象将会扮演刺激因素的角色，购买和喝下我们的饮料则是我们想要的反应。</em></p>
+<p>[7]<em>除此之外，我已经明白，现实世界的问题不会恰好落在某个学科的界线内。它们跨越了界线。如果两种事物存在密不可分的相互关系，我认为那种试图考虑其中一种事物而无视另一种事物的方法是值得怀疑的。</em></p>
+<p>[8]<em>有的人因为受过教育而变得道德高尚，然而在激励机制的驱动下，他可能会有意或无意地做出一些不道德的行为，以便得到他想要的东西，而且他还会为自己的糟糕行为寻找借口，就像施乐公司那些为了得到最高提成而不惜孙害顾客利益的销售员。</em></p>
+<p>[9]<em>我们很容易可以看出来，如果任由避免怀疑倾向引发的快速决定和拒绝改变这种决定的倾向相组合，将会使现代人的认知出现大量的错误。而且实际情况也确实如此。我们所有人都曾和许多冥顽不灵的人打过交道，那些人死抱着他们在小时候形成的错误观念，直到进了坟墓还不肯放手</em></p>
+<p>[10]<em>真正的教育应该是一个提高认知能力的漫长过程，以便我们变得足够有智慧，能够摧毁那些因拒绝改变倾向而被保留的错误想法。正如在世界顶尖大学任教的凯恩斯爵士谈及他那些高级知识分子同事时指出的，新思想之所以很难被接受，并不是因为它们本身太过复杂。新思想不被接受，是因为它们与原有的旧思想不一致。</em></p>
+<p>[11]<em>避免因为过去的成功而做蠢事的正确对策是：(1)谨慎地审视以往的每次成功，找出这些成功里面的偶然因素，以免受这些因素误导，从而夸大了计划中的新行动取得成功的概率；(2)看看新的行动将会遇到哪些以往的成功经验中没有出现的危险因素</em></p>
+<p>[12]<em>憎恨和讨厌也会造成由简单联想引起的认知错误。在企业界，我常常看到人们贬低他们讨厌的竞争对手的能力和品德。这是一种危险的做法，通常不易察觉，因为它是发生在潜意识层面的。</em></p>
+<p>[13]<em>伯克希尔有一条普遍的规矩：“有坏消息要立刻向我们汇报。只有好消息是我们可以等待的。”还有就是要保持明智和消息灵通，那就是让人们知道你有可能从别处听说坏消息，这样他们就不敢不把坏消息告诉你了。</em></p>
+<p>[14]<em>然而更具有负面作用的是，人们通常会高估自己未来为企业提供的服务质量。他们对这些未来贡献的过度评价常常会造成灾难性后果。自视过高往往会导致糟糕的雇佣决定，因为大部分雇主高估了他们根据面试印象所得结论的价值。防止这种蠢事的正确对策是看轻面试的印象，看重求职者以往的业绩</em></p>
+<h2 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h2><p>过去我所读过的政治、历史、社会、人类学的书籍，更多的是中国和世界外部动作。如果把中国比作一个人，那么我或许还没有真正读懂这个人。只是了解了过往，而非真正是人的灵魂。我需要形成一些基础性的观点，当前我的知识库足够大，但是却不够精。</p>
+<p>[4]里面提到的，关于学习的态度问题。下面这一段话也提到了类似的观点。</p>
+<p><em>什么叫“考试模型”？就是将事情看成一系列确定的、规范的问题。相信事情成功犹如参加考试。只要刻苦学习、掌握足够的知识，在应试考时沉着冷静，用上事前的积累，踩中得分点，最后就能成功地越过及格线，得到优良考评，顺理成章获得社会低为和相称的财富与体验，也就是俗称的成功。在这个过程中，人最大的依赖就是自身的素质和能力。人最好的策略，就是谋求多知多会多能。依靠这些本钱，逢山开路，遇水架桥，神挡杀神，佛挡杀佛，过关斩将排除万难、赢得最后的胜利。</em></p>
+<p><em>很遗憾，“考试模型”只是现代化学校教育造成的一种后果。它不可避免的在学校出现，并不可避免的在受到良好将于的青年进入独立阶段和决策者角色之前惯性保持。而考试模型会直直地带你迎头撞上抑郁。</em></p>
+<p><em>因为它根本就不符合事实。事实是真实的考验从不告诉你考题到底是什么，也不从简单的告诉你做对了还是做错了，也从不告诉你什么时候交卷。并且它非常喜欢在黎明前安排黑暗，在毁灭前安排庆功烟花。你如果遵循从“考试模型”去构造你的预期，你将一定会多次遭遇全然出乎意料的失败。</em></p>
+<p>十足的努力并非指向必然的成功，其最大的价值是让犯错后及时纠正。“我再多学一点就会成功”和查理的“如果再多投入一点就会成功”的思维模型是一致的。这也是为什么很多企业家在企业面临危机时，选择拆东墙补西墙，最终导致漏洞越来越大而招致惨烈的失败。这本质是一种赌徒思维也就是考试思维。</p>
+<p>拥有这种思维模型，在碰到事情存在成功和失败两个方向时，人往往会选择可能性更高的处理方式。而破产的人们，往往基于“加大投入就会成功”的考试模型，因而人们会有对这种看似更加稳健的方式有一个bias，人将会被自己不知不觉的说服，而不会停下来去思考，这种加大投入后其实并不会成功，反而会破产。所以一定要警惕。</p>
+<p>所以查理这本书里面提到的最重要的一个观点————多元思维模型，将思维进一步可视化而非思想。对于人类一个非常有趣的现象————人很难听得进去别人的话，并且很难改变自己的想法。读书最大的作用，就是来训练这个思维模型，一句结论的训练往往不会很好改变思维模型的权重，但是一整本书的输入，会让模型被微调，就会导致一个结果————这本书训练我的思维模型，从而可能会避免一些错误。所以这本书对我的一个很大的作用就是，让我可视化知道我们的读书会有什么作用。这一点和NLP关联性非常高。</p>
+<p>[8]中，也就是查理的人类误判心理学第一问，是关于奖励机制。这跟我们刚刚讨论过的问题又一次重合。深度学习当中模型的训练，是用损失函数来“惩罚”，从而产生相应的权重。而刚刚讨论过的常见的错误的考试模型，实际上就是学生时代经过奖励机制训练出来的bias。包括我们之前在《置身事内》里面提到的关于官员激励制度，以及刚刚读过的《一本书读懂股权架构》里面的股权激励制度，其本质的思维模型都是来源于此————奖励机制。</p>
+<p>[14]里面提到的自视过高很有意思。这一点是我永远需要克制和反思的问题。当我在和别人讨论的时候，往往会不自觉地进入到一种推销状态，即我会不自觉地展示出来思路和产品的优势。这一点对于营销来讲是极好的，通过这一点我甚至能够和朋友交往时来和正确的人推销自己的“观点”，从而使得对方对我佩服，同时也不自觉地高估了自己的能力。所以我一直需要注意的就是，要尽量少说，多看多听多做多学。这一点是我要永远注意的。</p>
+<p>我能感觉的到，人类误判心理学这一讲里面共有20条，但是这二十条并不是独立的，彼此之间会有交集。同时对于某个事件往往会有多条与之相关。</p>
+<p>最后，把芒格的投资原则检查清单摘录。</p>
+<p>风险:</p>
+<ul>
+<li>所有投资评估应该从测量风险(尤其是信用的风险开始)<ol>
+<li>测算合适的安全边际</li>
+<li>避免和道德品质有问题的人交易</li>
+<li>坚持为预定的风险要求合适的补偿</li>
+<li>永远记住通货膨胀和利率的风险</li>
+<li>避免犯下大错，避免资本金持续亏损<br>独立:</li>
+</ol>
+</li>
+<li>“唯有在童话中，皇帝才会被告知自己没穿衣服”<ol>
+<li>客观和理性的态度需要独立思考</li>
+<li>记住，你是对是错，并不取决于别人同意你还是反对你————唯一重要的是你的分析和判断是否正确</li>
+<li>随大流智慧让你往平均值靠近(只能取得中等的业绩)<br>准备:</li>
+</ol>
+</li>
+<li>“唯一的获胜方法是工作、工作、工作、工作，并希望拥有一点的洞察力”<ol>
+<li>通过广泛的阅读把自己培养成一个终身学习者，培养好奇心，每天努力使自己聪明一点点。</li>
+<li>比求生的意愿更重要的是做好准备的意愿</li>
+<li>熟练地掌握各大学科的思维模型</li>
+<li>如果你想变得聪明，你必须不停地追问的问题是“为什么，为什么，为什么”</li>
+</ol>
+</li>
+</ul>
+<p>谦虚：</p>
+<ul>
+<li>“承认自己的无知是智慧的开端”<ol>
+<li>只在自己明确界定的能力圈内行事</li>
+<li>辨认和核查否定性的证据</li>
+<li>抵制追求虚假的精确和错误的确定性的欲望</li>
+<li>最重要的是，别愚弄你自己，而且要记住，你是最容易被自己愚弄的人。</li>
+</ol>
+</li>
+</ul>
+<p>严格分析:</p>
+<ul>
+<li>“使用科学方法和有效的检查清单能够最大限度地减少错误和疏忽”<ol>
+<li>区分价值和价格、过程和行动、财富和规模</li>
+<li>记住浅显的好过掌握深奥的</li>
+<li>成为一名商业分析家，而不是时长、宏观经济或者证券分析家</li>
+<li>考虑总体的风险和效益，永远关注潜在的二阶效应和更高层次的影响</li>
+<li>要朝前想，往后想————反过来想，总是反过来想。</li>
+</ol>
+</li>
+</ul>
+<p>配置</p>
+<ul>
+<li>“正确地配置资本是投资者的最重要的工作”<ol>
+<li>记住，最好的用途总是由第二好的用途衡量出来的（机会成本）</li>
+<li>好主意特别少————当时机对你有利时，狠狠地下赌注吧（配置成本）</li>
+<li>别“爱上”投资项目，要依情况而定，照机会而行。</li>
+</ol>
+</li>
+</ul>
+<p>耐心</p>
+<ul>
+<li>“克制人类天生爱行动的偏好”<ol>
+<li>“复利是世界第八大奇迹（爱因斯坦）”，不到必要的时候，别去打断它</li>
+<li>避免多余的交易税和摩擦成本，永远别为了行动而行动</li>
+<li>幸运来临时要保持头脑清醒</li>
+<li>享受结果，也享受过程，因为你活在过程当中</li>
+</ol>
+</li>
+</ul>
+<p>决心:</p>
+<ul>
+<li>“当合适的时机出现时，要坚决地采取行动”<ol>
+<li>当别人贪婪时，要害怕;当别人害怕时，要贪婪。</li>
+<li>机会来临的次数不多，所以当它来临时，抓住它。</li>
+<li>机会只眷顾有准备的人：投资就是这样的游戏</li>
+</ol>
+</li>
+</ul>
+<p>改变:</p>
+<ul>
+<li>“在生活中要学会改变和接受无法消除的复杂性”<ol>
+<li>认识和适应你身边的世界的真实本质，别指望它来适应你。</li>
+<li>不断地挑战和主动地修正你“最爱的观念”</li>
+<li>正视现实，即使你并不喜欢它————尤其当你不喜欢它的时候。</li>
+</ol>
+</li>
+</ul>
+<p>专注</p>
+<ul>
+<li>“别把事情搞复杂，记住你原来要做的事。”<ol>
+<li>记住，声誉和正直是你最有价值的财产————而且能够在瞬间化为乌有。</li>
+<li>避免妄自尊大和厌倦无聊的情绪</li>
+<li>别因为过度关心细节而忽略了显而易见的东西。</li>
+<li>排除不需要的信息时要千万小心：“千里之堤，溃于蚁穴”</li>
+<li>直面你的大问题，别把它们藏起来。</li>
+</ol>
+</li>
+</ul>
+
+                    
+                </div>
+
+                
+
+                <div class="post-bottom-tags-and-share border-box">
+                    <div>
+                        
+                            <ul class="post-tags-box border-box">
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a>
+                                    </li>
+                                
+                                    <li class="tag-item border-box">
+                                        <i class="icon fas fa-hashtag"></i>&nbsp;<a href="/tags/%E4%B8%AA%E4%BA%BA%E5%BD%92%E6%A1%A3/">个人归档</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </div>
+                    <div>
+                        
+                            <div class="post-share-container border-box">
+    <ul class="share-list-wrap border-box">
+        <li class="qq share-item border-box flex-center tooltip"
+            data-tooltip-content="Share to QQ"
+        >
+            <i class="fa-brands fa-qq"></i>
+        </li>
+        <li class="wechat share-item border-box flex-center tooltip tooltip-img"
+            data-tooltip-content="Share to WeChat"
+            data-tooltip-img-tip="Scan by WeChat"
+            data-tooltip-img-style="background-color: #fff; top: -10px; padding: 0.6rem 0.6rem 0.1rem 0.6rem;"
+        >
+            <i class="fa-brands fa-weixin"></i>
+        </li>
+        <li class="weibo share-item border-box flex-center tooltip"
+            data-tooltip-content="Share to WeiBo"
+        >
+            <i class="fa-brands fa-weibo"></i>
+        </li>
+    </ul>
+</div>
+
+                        
+                    </div>
+                </div>
+
+                
+
+                
+                    <div class="post-nav border-box">
+                        
+                            <div class="prev-post">
+                                <a class="prev"
+                                   rel="prev"
+                                   href="/2025/08/08/%E5%A1%94%E7%BD%97%E5%86%A5%E6%83%B3/"
+                                   title="塔罗冥想"
+                                >
+                                    <span class="left arrow-icon flex-center">
+                                        <i class="fas fa-chevron-left"></i>
+                                    </span>
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">塔罗冥想</span>
+                                        <span class="post-nav-item">Prev posts</span>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                        
+                            <div class="next-post">
+                                <a class="next"
+                                   rel="next"
+                                   href="/2025/06/27/%E4%B8%AD%E5%9B%BD%E5%8E%86%E4%BB%A3%E7%BB%8F%E6%B5%8E%E5%BE%97%E5%A4%B1/"
+                                   title="中国历代经济得失"
+                                >
+                                    <span class="title flex-center">
+                                        <span class="post-nav-title-item text-ellipsis">中国历代经济得失</span>
+                                        <span class="post-nav-item">Next posts</span>
+                                    </span>
+                                    <span class="right arrow-icon flex-center">
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    
+
+
+
+
+
+
+                
+            </div>
+        </div>
+
+        
+            <div class="pc-post-toc right-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%80%8A%E7%A9%B7%E6%9F%A5%E7%90%86%E5%AE%9D%E5%85%B8%E3%80%8B"><span class="nav-text">《穷查理宝典》</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Start"><span class="nav-text">Start</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%98%E6%8A%84"><span class="nav-text">摘抄</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%94%E8%AE%B0"><span class="nav-text">笔记</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        
+    </div>
+</div>
+
+
+                
+            </div>
+        </div>
+
+        <div class="page-main-content-bottom border-box">
+            
+<footer class="footer border-box">
+    <div class="copyright-info info-item">
+    &copy;&nbsp;<span>2020</span>&nbsp;-&nbsp;2026
+    
+            &nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;&nbsp;<a href="/">Yaochang Liu</a>
+        
+    </div>
+
+    <div class="theme-info info-item">
+        Powered by&nbsp;<a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;&&nbsp;Theme&nbsp;<a class="keep-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep</a>
+    </div>
+
+    
+
+    
+        <div class="count-info info-item">
+            
+
+            
+                <span class="count-item border-box uv">
+                    <span class="item-type border-box">Unique Visitor</span>
+                    <span class="item-value border-box uv" id="busuanzi_value_site_uv"></span>
+                </span>
+            
+
+            
+                <span class="count-item border-box pv">
+                    <span class="item-type border-box">Page View</span>
+                    <span class="item-value border-box pv" id="busuanzi_value_site_pv"></span>
+                </span>
+            
+        </div>
+    
+
+    
+</footer>
+
+        </div>
+    </div>
+
+    <!-- post tools -->
+    
+        <div class="post-tools right-toc">
+            <div class="post-tools-container border-box">
+    <ul class="post-tools-list border-box">
+        <!-- PC encrypt again -->
+        
+
+        <!-- PC TOC show toggle -->
+        
+            <li class="tools-item flex-center toggle-show-toc">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        <!-- PC go comment -->
+        
+
+        <!-- PC full screen -->
+        <li class="tools-item flex-center full-screen">
+            <i class="fa-solid fa-expand"></i>
+        </li>
+    </ul>
+</div>
+
+        </div>
+    
+
+    <!-- side tools -->
+    <div class="side-tools">
+        <div class="side-tools-container border-box ">
+    <ul class="side-tools-list side-tools-show-handle border-box">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
+
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <!-- toggle mode -->
+        
+            <li class="tools-item tool-toggle-theme-mode flex-center">
+                <i class="fas fa-moon"></i>
+            </li>
+        
+
+        <!-- rss -->
+        
+
+        <!-- to bottom -->
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list border-box">
+        
+            <li class="tools-item toggle-show-toc-tablet flex-center">
+                <i class="fas fa-list"></i>
+            </li>
+        
+
+        
+
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+
+        <li class="tools-item tool-scroll-to-top flex-center show-arrow">
+            <i class="arrow fas fa-arrow-up"></i>
+            <span class="percent"></span>
+        </li>
+    </ul>
+</div>
+
+    </div>
+
+    <!-- image mask -->
+    <div class="zoom-in-image-mask">
+    <img class="zoom-in-image">
+</div>
+
+
+    <!-- local search -->
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fas fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="Search..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="close-popup-btn">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fas fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+    <!-- tablet toc -->
+    
+        <div class="tablet-post-toc-mask">
+            <div class="tablet-post-toc">
+                <div class="post-toc-wrap border-box">
+    <div class="post-toc border-box">
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E3%80%8A%E7%A9%B7%E6%9F%A5%E7%90%86%E5%AE%9D%E5%85%B8%E3%80%8B"><span class="nav-text">《穷查理宝典》</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Start"><span class="nav-text">Start</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%91%98%E6%8A%84"><span class="nav-text">摘抄</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%94%E8%AE%B0"><span class="nav-text">笔记</span></a></li></ol></li></ol>
+    </div>
+</div>
+
+            </div>
+        </div>
+    
+</main>
+
+
+
+
+
+<!-- common js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/utils.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/header-shrink.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/back2top.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/toggle-theme.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/code-block.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/main.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/libs/anime.min.js"></script>
+
+<!-- local search -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/local-search.min.js"></script>
+
+
+<!-- lazyload -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/lazyload.min.js"></script>
+
+
+<div class="">
+    <!-- home page -->
+    
+
+    <!-- post page -->
+    
+        <!-- post-helper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/post/post-helper.min.js"></script>
+
+        <!-- toc -->
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/post/toc.min.js"></script>
+        
+
+        <!-- copyright-info -->
+        
+
+        <!-- share -->
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/hexo-theme-keep/4.2.5/js/post/share.min.js"></script>
+        
+    
+
+    <!-- categories page -->
+    
+
+    <!-- links page -->
+    
+
+    <!-- photos page -->
+    
+
+    <!-- tools page -->
+    
+</div>
+
+<!-- mermaid -->
+
+
+<!-- pjax -->
+
+
+
+</body>
+</html>
