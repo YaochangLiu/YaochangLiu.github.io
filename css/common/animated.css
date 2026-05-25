@@ -1,6 +1,6 @@
 .fade-in-down-animation {
   animation-name: fade-in-down;
-  animation-duration: 1s;
+  animation-duration: 0s;
   animation-fill-mode: both;
 }
 .title-hover-animation {

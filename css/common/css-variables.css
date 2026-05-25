@@ -28,7 +28,7 @@
   --first-screen-icon-color-dark: #adbac5;
   --first-screen-header-font-color-light: #50505c;
   --first-screen-header-font-color-dark: #adbac5;
-  --home-post-hover-scale: 1;
+  --home-post-hover-scale: 0.985;
   --post-title-align: left;
   --post-author-avatar: block;
   --post-author-name: flex;
