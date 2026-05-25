@@ -1,10 +1,10 @@
 :root {
   --toolbar-foreground: #50505c;
-  --toolbar-background: #f0f0f0;
+  --toolbar-background: #f7efdf;
   --code-foreground: #585865;
   --code-background: rgba(0,102,204,0.15);
   --code-border-color: #2994ff;
-  --highlight-background: #fafafa;
+  --highlight-background: #fbf7ef;
   --highlight-foreground: #535360;
   --highlight-comment: #8e908c;
   --highlight-red: #c82829;
@@ -17,7 +17,7 @@
   --highlight-deletion: #fdd;
   --highlight-addition: #dfd;
   --highlight-gutter-color: #585865;
-  --highlight-gutter-bg-color: #f2f2f2;
+  --highlight-gutter-bg-color: #f8f1e3;
   --mac-toolbar-background-color: #21252b;
   --shrink-line-foreground: #808091;
   --shrink-line-background-1: rgba(210,210,210,0.9);
@@ -26,11 +26,11 @@
 @media (prefers-color-scheme: light) {
   :root {
     --toolbar-foreground: #50505c;
-    --toolbar-background: #f0f0f0;
+    --toolbar-background: #f7efdf;
     --code-foreground: #585865;
     --code-background: rgba(0,102,204,0.15);
     --code-border-color: #2994ff;
-    --highlight-background: #fafafa;
+    --highlight-background: #fbf7ef;
     --highlight-foreground: #535360;
     --highlight-comment: #8e908c;
     --highlight-red: #c82829;
@@ -43,7 +43,7 @@
     --highlight-deletion: #fdd;
     --highlight-addition: #dfd;
     --highlight-gutter-color: #585865;
-    --highlight-gutter-bg-color: #f2f2f2;
+    --highlight-gutter-bg-color: #f8f1e3;
     --mac-toolbar-background-color: #21252b;
     --shrink-line-foreground: #808091;
     --shrink-line-background-1: rgba(210,210,210,0.9);
@@ -79,11 +79,11 @@
 }
 .light-mode {
   --toolbar-foreground: #50505c;
-  --toolbar-background: #f0f0f0;
+  --toolbar-background: #f7efdf;
   --code-foreground: #585865;
   --code-background: rgba(0,102,204,0.15);
   --code-border-color: #2994ff;
-  --highlight-background: #fafafa;
+  --highlight-background: #fbf7ef;
   --highlight-foreground: #535360;
   --highlight-comment: #8e908c;
   --highlight-red: #c82829;
@@ -96,7 +96,7 @@
   --highlight-deletion: #fdd;
   --highlight-addition: #dfd;
   --highlight-gutter-color: #585865;
-  --highlight-gutter-bg-color: #f2f2f2;
+  --highlight-gutter-bg-color: #f8f1e3;
   --mac-toolbar-background-color: #21252b;
   --shrink-line-foreground: #808091;
   --shrink-line-background-1: rgba(210,210,210,0.9);
